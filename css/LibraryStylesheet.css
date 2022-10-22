@@ -1,0 +1,170 @@
+body{
+    background-image: url('../images/pexels-s-migaj-747964\ \(1\).jpg');
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+#top{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+    justify-content: space-between;
+    /* font-family: 'Merienda One', cursive; */
+    z-index: 1;
+}
+
+#top button{
+    border: 0;
+}
+
+#left{
+    /* font-family: 'Merienda One', cursive; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+}
+
+#brand{
+    color: white;
+    text-shadow: 0 0 15px black;
+}
+
+.left-bar{
+    margin-top: 40px;
+}
+
+#left button{
+    text-shadow: 0 0 1px black;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    height: 50px;
+    /* border-color: cadetblue; */
+    border: 0.3px;
+}
+
+#middle{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80%;
+    float: left;
+    text-align: center;
+    /* font-family: 'Merienda One', cursive; */
+}
+
+#update_song_container{
+    text-align: -webkit-center;
+}
+
+#add_song_container{
+    text-align: -webkit-center;
+}
+
+#filer input{
+    padding: 0;
+    width: 300px;
+    border: none;
+}
+
+#results_Container{
+    padding-right: 15px;
+    padding-left: 5px;
+}
+
+h1{
+    text-align: center;
+    padding: 25px;
+}
+
+h2{
+    text-align: center;
+    padding: 25px;
+    color: #f8f9fa;
+    text-shadow: 0 0 15px black;
+}
+
+h4{
+    color: #f8f9fa;
+    text-shadow: 0 0 15px black;
+}
+
+input{
+    border: 2px solid gray;
+    height: 38px;
+    width: 220px;
+    padding: 10px;
+    border-radius: 16px;
+}
+
+#search-button button{
+    vertical-align: initial;
+}
+
+input::-webkit-input-placeholder{
+    opacity: 0.5;
+}
+
+@media (max-width: 850px){
+    body{
+        background-image: url('../images/pexels-zhaocan-li-1755243\ \(1\).jpg');
+    }
+    
+    #left{
+        top: 15%;
+        width: 8%;
+    }
+
+    #brand
+    {
+        display: none;
+    }
+
+    #left button{
+        text-shadow: 0 0 3px black;
+    }
+
+    span{
+        display: none;
+    }
+
+    #top{
+        width:79%;
+        position: fixed;
+    }   
+
+    input{
+        height: 38px;
+        width: 120px;
+        padding-top: 5px;
+    }
+
+    #dropdownMenuLink{
+        width: 73px;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+
+    #search-button button{
+        display: none;
+    }
+
+    #middle{
+        top: 15%;
+        width: 79%
+    }
+
+    #results_Container{
+        width: 79%;
+    }
+
+}
